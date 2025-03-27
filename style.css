@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.top-bar {
+    background-color: #F6F2F2;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.top-bar p{
+   color: #062951;
+}
+.highlight {
+    color: #ff5733;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    height: 37px;
+    width : 205px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.btn {
+    background-color: white;
+    border: 2px solid red;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+}
+.hero-content h1 {
+    color: #062951;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.3em;
+    letter-spacing: 0;
+}
+.hero-image img {
+    max-width: 400px;
+}
+.courses {
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+.courses h2 {
+    font-size: 24px;
+    color: #002147;
+}
+.course-container {
+    display: flex;
+    gap: 20px;
+}
+.course-sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.course-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.course-sidebar li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+.course-sidebar .active {
+    color: #ff5733;
+    font-weight: bold;
+}
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 75%;
+}
+.course-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    text-align: center;
+}
+.course-card a {
+    color: #ff5733;
+    font-weight: bold;
+    text-decoration: none;
+}

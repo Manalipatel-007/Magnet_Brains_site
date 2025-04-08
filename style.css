@@ -173,6 +173,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     width: 75%;
+    height: 850px;
     padding-top: 20px;
     padding-right: 38px;
     padding-bottom: 125px;
@@ -184,6 +185,7 @@ body {
 
 .main-list{
     border-right: 1px solid #E6E6E6;
+    height: 950px;
 }
 
 .course-card {
